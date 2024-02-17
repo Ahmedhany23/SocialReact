@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.mycolor{
+  color: red;
+}
+.dark .mycolor{
+color: green;
+}
+@media (max-width:900px) {
+  .mylist{
+    position: fixed;
+    background-color:  #121212;
+    top: 59px;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    transition: 1s;
+}
+}
